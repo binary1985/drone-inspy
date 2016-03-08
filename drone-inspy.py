@@ -36,7 +36,7 @@ try:
             data = json.load(f)
 
         for employee in data['employees']:
-        employee_name = employee['employeename'].title().strip(',')
+            employee_name = employee['employeename'].title().strip(',')
             person = dict(models.person)
             person['projectId'] = project_id
             person['principalName'] = employee_name
