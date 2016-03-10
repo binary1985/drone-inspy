@@ -4,7 +4,12 @@ Parses and imports InSpy JSON output into a lair project
 ## Installation
 -----
 
-Run `pip install -r requirements.txt` within the cloned drone-inspy directory.
+This library is dependent on [pylair](https://github.com/lair-framework/pylair). After installing pylair, download the latest release [here](https://github.com/lair-framework/drone-inspy/releases/latest).
+
+```
+$ sudo pip install drone-inspy*.tar.gz
+$ drone-inspy -h
+```
 
 ## Help
 -----
